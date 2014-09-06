@@ -1,0 +1,34 @@
+{
+  "name": "revisit-enhance",
+  "version": "0.0.0",
+  "description": "Revisit services for enhance and impair",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:imakewebthings/revisit-enhance.git"
+  },
+  "engines": {
+    "node": "0.10.28"
+  },
+  "keywords": [
+    "revisit"
+  ],
+  "author": "Caleb Troughton <caleb@imakewebthings.com> (http://imakewebthings.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imakewebthings/revisit-enhance/issues"
+  },
+  "homepage": "https://github.com/imakewebthings/revisit-enhance",
+  "dependencies": {
+    "data-uri-to-buffer": "0.0.3",
+    "lodash": "^2.4.1",
+    "nodemon": "^1.2.1",
+    "readimage": "^1.1.1",
+    "restify": "^2.8.2",
+    "writegif": "^1.1.0"
+  }
+}
