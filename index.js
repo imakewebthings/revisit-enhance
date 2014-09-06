@@ -5,7 +5,6 @@ var readimage = require('readimage')
 var writegif = require('writegif')
 var server = restify.createServer()
 var port = process.env.PORT || 7000
-var fs = require('fs')
 
 var Pixel = function(r, g, b, a) {
   this.r = r
